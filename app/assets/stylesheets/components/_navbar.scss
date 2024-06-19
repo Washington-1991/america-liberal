@@ -48,3 +48,43 @@
     height: 50px;
   }
 }
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  color: white;
+  box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  margin: 0 -42px;
+  z-index: 1;
+
+  .dropdown-item {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+    img {
+      width: 20px;
+      height: 20px;
+      margin-right: 8px;
+
+    }
+
+    &:hover {
+      background-color: #f1f1f1;
+      color: black;
+      border-radius: 5px;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+
+  &:hover .dropdown-menu {
+    display: block;
+  }
+}
