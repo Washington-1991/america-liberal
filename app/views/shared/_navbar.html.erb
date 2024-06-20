@@ -3,13 +3,12 @@
       <%= image_tag "logo-AMLB" %>
   </div>
 
-  <div class="dropdown">
-
-    <button class="dropdown-toggle"><%= image_tag "argentina.png" %> Pais</button>
-      <div class="dropdown-menu">
-        <a href="/argentina" class="dropdown-item"><%= image_tag "argentina.png" %> Argentina</a>
-        <a href="/uruguay" class="dropdown-item"><%= image_tag "uruguay.png" %> Uruguay</a>
-      </div>
+   <div class="menu-container">
+    <button id="menu-toggle">Menu</button>
+    <div class="menu" id="menu">
+      <a href="/argentina">Argentina</a>
+      <a href="/uruguay">Uruguay</a>
+    </div>
   </div>
 
 </div>
