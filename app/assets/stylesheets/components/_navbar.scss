@@ -11,13 +11,16 @@
 
 // navbar dropdown
 .container-toggle {
- margin: 0;
- padding: 0;
+  margin: 0;
+  padding: 0;
 
- height: 100%;
- width: 250px;
- position: absolute;
- background: #161616;
+  height: 100%;
+  width: 250px;
+  position: absolute;
+  background: #161616;
+  z-index: 1;
+
+
  box-sizing: border-box;
  font-family: sans-serif;
 }
