@@ -17,4 +17,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  button {
+    background-color: transparent;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
 }
