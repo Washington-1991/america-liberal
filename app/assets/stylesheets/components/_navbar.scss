@@ -41,8 +41,8 @@
 }
 
 .dropdown-content a {
-  color: #4CAF50;
-  margin-right: 30px;
+  color: #000000;
+  margin-right: 0 30px;
   padding: 8px 10px;
   text-decoration: none;
   display: block;
@@ -50,7 +50,7 @@
 }
 
 .dropdown-content a:hover {
-  margin-right: 30px;
+  margin-right: 0 30px;
   background-color: #4CAF50;
   color: #212121;
 }
@@ -73,5 +73,6 @@
 }
 
 .paste-button:hover .dropdown-content {
+  margin: 0 32px;
   display: block;
 }
