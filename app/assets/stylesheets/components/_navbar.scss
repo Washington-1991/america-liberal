@@ -37,6 +37,6 @@
   }
 
     .dropdown-menu {
-      @include inner-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+      box-shadow:  inner shadow(0 0 10px rgba(0, 0, 0, 0.5));
   }
 }
