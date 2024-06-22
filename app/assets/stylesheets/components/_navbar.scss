@@ -27,10 +27,12 @@
 
   li {
     display: flex;
+    padding: 0 8px;
+
+    img {
+      width: 30px;
+      height: 30px;
+    }
   }
 
-  li img {
-    width: 30px;
-    height: 30px;
-  }
 }
