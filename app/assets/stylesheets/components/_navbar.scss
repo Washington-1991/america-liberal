@@ -25,6 +25,10 @@
     cursor: pointer;
   }
 
+  li {
+    display: flex;
+  }
+
   li img {
     width: 30px;
     height: 30px;
