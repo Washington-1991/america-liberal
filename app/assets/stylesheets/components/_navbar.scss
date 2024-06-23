@@ -12,6 +12,9 @@
 
 // title
 .navbar-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-style: "Times New Roman", serif;
   border: 2px solid red;
 }
