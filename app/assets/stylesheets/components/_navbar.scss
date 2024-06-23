@@ -12,11 +12,15 @@
 
 // title
 .navbar-title {
+  height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-style: "Times New Roman", serif;
-  border: 2px solid red;
+
+  h2 {
+    font-style: "Times New Roman", serif;
+  }
+
 }
 
 
