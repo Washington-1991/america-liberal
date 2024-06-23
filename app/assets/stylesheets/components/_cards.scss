@@ -26,6 +26,12 @@
   box-shadow: 0px 1rem 1.5rem -0.9rem #000000e1;
   width: 100%;
 
+  img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+  }
+
   .card-01 {
 
     height: 10vh;
@@ -50,12 +56,6 @@
       justify-content: center;
     }
 
-  }
-
-  img {
-    width: 48px;
-    height: 48px;
-    object-fit: cover;
   }
 
   .card-text {
