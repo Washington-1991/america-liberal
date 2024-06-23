@@ -19,7 +19,6 @@
 .argentina-info-card {
 
   display: flex;
-  justify-content: space-between;
   align-items: center;
   background: linear-gradient(135deg, #0d1120 0%, #3a4b8a 43%, #0d1120 100%);
   padding: 0 16px;
@@ -28,6 +27,8 @@
   width: 100%;
 
   .card-freedom-index {
+    height: auto;
+    width: 20%;
     border: 2px solid white;
   }
 
