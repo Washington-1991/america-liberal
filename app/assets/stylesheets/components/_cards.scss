@@ -175,4 +175,11 @@
   border-radius: 1.2rem;
   box-shadow: 0px 1rem 1.5rem -0.9rem #000000e1;
   width: 100%;
+
+  // country image flag
+  img {
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+  }
 }
