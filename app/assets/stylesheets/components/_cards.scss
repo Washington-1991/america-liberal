@@ -36,7 +36,7 @@
 
     height: 10vh;
     width: 20%;
-    margin: 16px;
+    margin:  0 0 0 16px;
     border-left: 2px solid #bec4cf;
     border-right: 2px solid #bec4cf;
 
@@ -72,6 +72,7 @@
       margin: auto;
       display: flex;
       justify-content: center;
+      border: 2px solid #bec4cf;
     }
 
     .card-02-b {
@@ -80,6 +81,7 @@
       margin: auto;
       display: flex;
       justify-content: center;
+      border: 2px solid #bec4cf;
     }
 
   }
