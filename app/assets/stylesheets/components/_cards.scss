@@ -39,6 +39,12 @@
     border-left: 2px solid #bec4cf;
     border-right: 2px solid #bec4cf;
     border: 2px solid #bec4cf;
+
+    img {
+      margin: auto;
+      height: 10vh;
+      object-fit: cover;
+    }
   }
 
   .card-01 {
