@@ -18,6 +18,7 @@
 
 .argentina-info-card {
 
+  // general
   display: flex;
   align-items: center;
   background: linear-gradient(135deg, #0d1120 0%, #3a4b8a 43%, #0d1120 100%);
@@ -32,18 +33,7 @@
     object-fit: cover;
   }
 
-  .card-04 {
-    height: 100%;
-    width: 20%;
-    margin:  0 0 0 16px;
 
-
-    img {
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
-    }
-  }
 
   .card-01 {
 
@@ -121,6 +111,19 @@
       justify-content: center;
     }
 
+  }
+
+  .card-04 {
+    height: 100%;
+    width: 20%;
+    margin:  0 0 0 16px;
+
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
   }
 
   .card-text {
