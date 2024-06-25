@@ -186,10 +186,15 @@
   // card 06
   .card-06 {
 
-
+    height: 100%;
+    width: 15%;
     margin:  0 0 0 16px;
-    border-left: 2px solid #bec4cf;
-    border-right: 2px solid #bec4cf;
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
   }
 
  }
