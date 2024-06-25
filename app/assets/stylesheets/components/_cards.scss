@@ -195,6 +195,32 @@
       width: 30%;
       object-fit: cover;
     }
+
+    // card 07 Indice de libertad economica
+    .card-07 {
+
+      height: 10vh;
+      width: 20%;
+      margin:  0 0 0 16px;
+      border-left: 2px solid #bec4cf;
+      border-right: 2px solid #bec4cf;
+
+      .card-07-a {
+        height: 50%;
+        font-size: 1rem;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+      }
+
+      .card-07-b {
+        height: 50%;
+        font-size: 1rem;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+      }
+    }
   }
 
  }
