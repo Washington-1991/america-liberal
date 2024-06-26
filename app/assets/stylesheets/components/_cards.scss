@@ -251,7 +251,8 @@
   }
 
   // card 09 Euro
-  height: 10vh;
+  .card-09 {
+    height: 10vh;
     width: 20%;
     margin: 16px 0;
     border-right: 2px solid #bec4cf;
@@ -273,4 +274,5 @@
       justify-content: center;
     }
 
+  }
 }
