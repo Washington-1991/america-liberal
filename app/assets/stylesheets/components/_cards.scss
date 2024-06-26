@@ -250,6 +250,27 @@
     }
   }
 
-  // card 09 Euroqa USA
+  // card 09 Euro
+  height: 10vh;
+    width: 20%;
+    margin: 16px 0;
+    border-right: 2px solid #bec4cf;
+
+    .card-03-a {
+      height: 50%;
+      font-size: 1rem;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+    }
+
+    .card-03-b {
+      display: flex;
+      height: 50%;
+      font-size: 1rem;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+    }
 
 }
