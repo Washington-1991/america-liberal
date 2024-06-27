@@ -23,6 +23,19 @@
 
 }
 
+// promo navbar container
+.promo-navbar-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  position: relative;
+  display: block;
+  overflow: hidden;
+
+}
+
 // promo content
 .promo-content{
   height: 5vh;
