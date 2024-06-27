@@ -30,9 +30,13 @@
 
 // button navbar home
 .button-01 {
+  // disposicion general
   display: flex;
   justify-content: center;
   align-items: center;
+
+  // estilo del button
+  border: none;
 
   img {
 
