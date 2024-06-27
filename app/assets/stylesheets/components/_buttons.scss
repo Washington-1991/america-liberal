@@ -30,8 +30,12 @@
 
 // button navbar home
 .button-01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   img {
+
 
     height: 10vh;
     object-fit: cover;
