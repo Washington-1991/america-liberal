@@ -23,49 +23,7 @@
 
 }
 
-
-// navbar dropdown
-.dropdown {
-  height: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  button {
-    background-color: transparent;
-    border: none;
-    padding: 8px;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-
-  li {
-    display: flex;
-    padding: 0 8px;
-
-    img {
-      width: 30px;
-      height: 30px;
-    }
-  }
-
-    .dropdown-menu {
-      box-shadow:  inner shadow(0 0 10px rgba(0, 0, 0, 0.5));
-  }
-}
-
-.promo-navbar-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 100%;
-  position: relative;
-  display: block;
-  overflow: hidden;
-
-}
-
+//
 .promo-content{
   height: 5vh;
   color: white;
