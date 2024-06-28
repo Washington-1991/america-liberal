@@ -10,7 +10,9 @@ Rails.application.routes.draw do
   get 'argentina', to: 'pages#argentina'
   get 'uruguay', to: 'pages#uruguay'
   get "home", to: "pages#home"
-  get "new", to: "sessions#new"
+
+  resources :sessions, only: [:new, :create, :destroy]
+  get 'sessions/new', to: 'sessions#new', as: 'new_session'
 
 
   # Defines the root path route ("/")
