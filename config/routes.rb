@@ -12,7 +12,7 @@ Rails.application.routes.draw do
   get "home", to: "pages#home"
 
   resources :sessions, only: [:new, :create, :destroy]
-  # get 'sessions/new', to: 'sessions#new', as: 'new_session'
+  get 'sessions/new', to: 'sessions#new', as: 'new_session'
 
 
   # Defines the root path route ("/")
