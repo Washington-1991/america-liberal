@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
   devise_for :users
+  resources :sessions, only: [:new, :create, :destroy]
+  get 'sessions/new', to: 'sessions#new'
+
   root to: "pages#home"
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
@@ -11,8 +14,7 @@ Rails.application.routes.draw do
   get 'uruguay', to: 'pages#uruguay'
   get "home", to: "pages#home"
 
-  resources :sessions, only: [:new, :create, :destroy]
-  get 'sessions/new', to: 'sessions#new'
+
 
 
   # Defines the root path route ("/")
