@@ -11,7 +11,7 @@ Rails.application.routes.draw do
   get 'uruguay', to: 'pages#uruguay'
   get "home", to: "pages#home"
 
-  # resources :sessions, only: [:new, :create, :destroy]
+  resources :sessions, only: [:new, :create, :destroy]
   get 'sessions/new', to: 'sessions#new', as: 'new_session'
 
 
