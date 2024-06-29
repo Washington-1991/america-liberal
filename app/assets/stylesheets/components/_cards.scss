@@ -312,15 +312,15 @@
   border-bottom: 2px solid black;
   box-shadow: 1px 1rem 1.5rem -0.9rem #000000e1;
 
-  .a {
-    text-decoration: none;
-    color: #000000;
-  }
-
   // titulo de la noticia principal
   .card-11-title {
     display: flex;
     justify-content: center;
+
+    .a {
+      text-decoration: none;
+      color: #000000;
+    }
 
     img {
       width: 40px;
