@@ -310,7 +310,7 @@
   margin: 16px;
   padding: 16px;
   border-radius: 5px;
-  box-shadow: 0px 1rem 1.5rem -0.9rem #000000e1;
+  box-shadow: 1px 1rem 1.5rem -0.9rem #000000e1;
 
 
   // titulo de la noticia principal
@@ -327,6 +327,7 @@
 
   // imagen de la noticia principal
   .card-11-img {
+    display: flex;
     img {
       width: 70%;
       height: 70%;
