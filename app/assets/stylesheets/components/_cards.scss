@@ -312,7 +312,13 @@
 
   // titulo de la noticia principal
   .card-11-title {
+    display: flex;
 
+    img {
+      width: 24px;
+      height: 24px;
+      object-fit: cover;
+    }
   }
 
   // imagen de la noticia principal
