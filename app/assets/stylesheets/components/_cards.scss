@@ -307,7 +307,6 @@
 
 // card 11 correspondiente a la informacion principal de la pagina principal
 .card-11 {
-  margin: 16px;
   padding: 16px;
   border-radius: 5px;
   box-shadow: 1px 1rem 1.5rem -0.9rem #000000e1;
@@ -328,13 +327,26 @@
 
   // imagen de la noticia principal
   .card-11-img {
+    // general
     display: flex;
     justify-content: center;
+
+    // imagen
     img {
       width: 70%;
       height: 70%;
       border-radius: 5px;
       object-fit: cover;
     }
+
+  }
+
+  // texto de la noticia principal
+  .card-11-text {
+    margin: 16px 0;
+    font-size: 1rem;
+    color: #000000;
+    background: transparent;
+    padding: 16px;
   }
 }
