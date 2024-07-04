@@ -375,7 +375,12 @@
     height: 200px;
     border-radius: 5px;
     object-fit: cover;
+  }
 
+  img .img-flag{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
   }
 
   // titulo de la noticia secundaria
