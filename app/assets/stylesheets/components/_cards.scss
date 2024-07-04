@@ -401,11 +401,17 @@
   padding: 8px;
   box-shadow: 1px 1rem 1.5rem -0.9rem #000000e1;
 
-  // imagen correspondiente a la noticia secundaria
-  img {
+ // imagen correspondiente a la noticia secundaria
+  .img-noticia{
     width: 350px;
     height: 200px;
     border-radius: 5px;
+    object-fit: cover;
+  }
+
+  .img-flag{
+    width: 40px;
+    height: 40px;
     object-fit: cover;
   }
 
@@ -428,12 +434,17 @@
   box-shadow: 1px 1rem 1.5rem -0.9rem #000000e1;
 
   // imagen correspondiente a la noticia secundaria
-  img {
+  .img-noticia{
     width: 350px;
     height: 200px;
     border-radius: 5px;
     object-fit: cover;
+  }
 
+  .img-flag{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
   }
 
   // titulo de la noticia secundaria
