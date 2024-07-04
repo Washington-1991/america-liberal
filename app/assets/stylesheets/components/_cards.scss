@@ -369,6 +369,9 @@
   padding: 8px;
   box-shadow: 1px 1rem 1.5rem -0.9rem #000000e1;
 
+  .card-12-title {
+    display: flex;
+  }
   // imagen correspondiente a la noticia secundaria
   .img-noticia{
     width: 350px;
