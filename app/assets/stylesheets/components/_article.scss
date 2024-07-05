@@ -60,5 +60,11 @@
   .article-extra-card-container {
     width: 100%;
     padding: 8px;
+
+    .article-extra-card-line-one {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
   }
 }
