@@ -35,3 +35,33 @@
 }
 
 // articulo extra
+.article-extra-container {
+  margin: 16px 0;
+  border-top: 2px solid #000000;
+  border-bottom: 2px solid #000000;
+
+  // carta correspondiente al titulo
+  .article-extra-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+
+   a {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+   }
+
+  }
+
+  // carta correspondiente a las noticias secundarias
+  .article-extra-card-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+  }
+}
