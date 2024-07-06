@@ -9,8 +9,8 @@
     <div class="article-extra-card-container">
 
       <div class="article-extra-card-line">
-        <div class="card">Card 15</div>
-        <div class="card">Card 16</div>
+        <div class="card-15"></div>
+        <div class="card-16"></div>
         <div class="card">Card 17</div>
         <div class="card">Card 18</div>
       </div>
@@ -35,3 +35,25 @@
   <button class="carousel-btn prev-btn">&lt;</button>
   <button class="carousel-btn next-btn">&gt;</button>
 </div>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+  const carousel = document.querySelector('.article-extra-card-carousel');
+  const prevBtn = document.querySelector('.prev-btn');
+  const nextBtn = document.querySelector('.next-btn');
+
+  prevBtn.addEventListener('click', () => {
+    carousel.scrollBy({
+      left: -carousel.clientWidth,
+      behavior: 'smooth'
+    });
+  });
+
+  nextBtn.addEventListener('click', () => {
+    carousel.scrollBy({
+      left: carousel.clientWidth,
+      behavior: 'smooth'
+    });
+  });
+});
+
+</script>
