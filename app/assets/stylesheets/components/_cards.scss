@@ -648,3 +648,45 @@
     margin: 16px 0;
   }
 }
+
+// card 19 correspondiente a noticias extras
+.card-19 {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 300px;
+  border-radius: 5px;
+  padding: 8px;
+  border: 2px solid #ffffff;
+  box-shadow: 1px 1rem 1.5rem -0.9rem #000000e1;
+
+  .card-19-title {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  // imagen correspondiente a la noticia extra
+  .img-noticia{
+    width: 350px;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+
+  .img-flag{
+    width: 40px;
+    height: 40px;
+    margin: 0 16px 0 0;
+    object-fit: cover;
+  }
+
+  // titulo de la noticia extra
+  a {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 24px;
+    margin: 16px 0;
+  }
+}
