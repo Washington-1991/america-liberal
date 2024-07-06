@@ -76,30 +76,12 @@
 
     }
 
-    // articulos de segunda linea
-    .article-extra-card-line-two {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
-      margin: 16px 0 0 0;
-    }
-
-    // articulos de tercera linea
-    .article-extra-card-line-three {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
-      margin: 16px 0 0 0;
-    }
-  }
-
-  .article-extra-card-line {
+    .article-extra-card-line {
     display: flex;
     justify-content: space-between;
     width: 100%;
     flex-wrap: nowrap;
     scroll-snap-align: start;
+    }
   }
 }
