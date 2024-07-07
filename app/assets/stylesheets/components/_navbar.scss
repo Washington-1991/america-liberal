@@ -4,6 +4,8 @@
 .navbar-container {
   height: 10vh;
   width: 100%;
+  position: fixed;
+  top: 0;
   border-bottom: 2px solid skyblue;
   display: flex;
   justify-content: space-between;
