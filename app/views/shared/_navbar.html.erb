@@ -1,32 +1,30 @@
 <div class="navbar-container">
-<div class="navbar-container-line-one">
+  <div class="navbar-container-line-one">
 
-  <div class="navbar-card-img">
-    <button class="button-01">
-      <a href="/home"><%= image_tag "logo-AMLB" %></a>
-    </button>
+    <div class="navbar-card-img">
+      <button class="button-01">
+        <a href="/home"><%= image_tag "logo-AMLB" %></a>
+      </button>
 
-    <div class="navbar-title">
-      <h2>Noticias de libertad</h2>
+      <div class="navbar-title">
+        <h2>Noticias de libertad</h2>
+      </div>
+
     </div>
 
+    <div class="dropdown">
+
+      <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Pais
+      </button>
+
+      <ul class="dropdown-menu">
+        <li><%= image_tag "argentina.png" %><a class="dropdown-item" href="/argentina"> Argentina</a></li>
+        <li><%= image_tag "uruguay.png" %><a class="dropdown-item" href="/uruguay"> Uruguay</a></li>
+      </ul>
+
+    </div>
   </div>
-
-  <div class="dropdown">
-
-
-
-    <button class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-      Pais
-    </button>
-
-    <ul class="dropdown-menu">
-      <li><%= image_tag "argentina.png" %><a class="dropdown-item" href="/argentina"> Argentina</a></li>
-      <li><%= image_tag "uruguay.png" %><a class="dropdown-item" href="/uruguay"> Uruguay</a></li>
-    </ul>
-
-  </div>
-</div>
 
   <div class="promo-content">
   <span>
