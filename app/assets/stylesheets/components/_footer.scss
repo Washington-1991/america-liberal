@@ -3,5 +3,7 @@
 .footer-container {
   height: 10vh;
   width: 100%;
+  position: fixed;
+  bottom: 0;
   border: 2px solid rgb(255, 0, 0);
 }
