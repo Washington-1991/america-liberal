@@ -494,16 +494,9 @@
   border: 2px solid #ffffff;
   box-shadow: 1px 1rem 1.5rem -0.9rem #000000e1;
 
-  .card-15-title {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-  }
 
   // imagen correspondiente a la noticia extra
-  .img-noticia{
-    width: 350px;
-    height: 200px;
+  .img{
     border-radius: 5px;
     object-fit: cover;
   }
