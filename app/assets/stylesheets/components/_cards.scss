@@ -496,13 +496,16 @@
 
 
   // imagen correspondiente a la noticia extra
-  img{
-    border-radius: 5px;
-    object-fit: cover;
-  }
+
 
   a {
     text-decoration: none;
+
+    img{
+      border-radius: 5px;
+      object-fit: cover;
+    }
+
   }
   // titulo de la noticia extra
  p {
