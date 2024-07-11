@@ -864,6 +864,17 @@
 
 // card 25 correspondiente a noticias extras
 .card-25 {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 300px;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 0 8px;
+  border: 2px solid #ffffff;
+  box-shadow: 1px 1rem 1.5rem -0.9rem #000000e1;
+
+
   // imagen correspondiente a la noticia extra
 
 
@@ -891,29 +902,40 @@
 
 // card 26 correspondiente a noticias extras
 .card-26 {
- // imagen correspondiente a la noticia extra
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  height: 300px;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 0 8px;
+  border: 2px solid #ffffff;
+  box-shadow: 1px 1rem 1.5rem -0.9rem #000000e1;
 
 
- a {
-  text-decoration: none;
+  // imagen correspondiente a la noticia extra
 
-  img{
-    width: 100%;
-    height: 80%;
-    border-radius: 5px;
-    object-fit: cover;
+
+  a {
+    text-decoration: none;
+
+    img{
+      width: 100%;
+      height: 80%;
+      border-radius: 5px;
+      object-fit: cover;
+    }
+
   }
+  // titulo de la noticia extra
+ p {
+    text-decoration: none;
+    color: #bec4cf;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    margin: 16px 0;
 
-}
-// titulo de la noticia extra
-p {
-  text-decoration: none;
-  color: #bec4cf;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 16px;
-  margin: 16px 0;
-
-}
+ }
 }
 
 // card 27 correspondiente a exponentes liberales
