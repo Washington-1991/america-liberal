@@ -940,9 +940,10 @@
 
 // card 27 correspondiente a exponentes liberales
 .card-27 {
+
   display: flex;
   flex-direction: column;
-  width: 250px;
+  width: 50%;
   height: 300px;
   border-radius: 5px;
   padding: 8px;
@@ -953,25 +954,4 @@
 
   // imagen correspondiente a la noticia extra
 
-
-  a {
-    text-decoration: none;
-
-    img{
-      width: 100%;
-      height: 80%;
-      border-radius: 5px;
-      object-fit: cover;
-    }
-
-  }
-  // titulo de la noticia extra
- p {
-    text-decoration: none;
-    color: #bec4cf;
-    font-family: "Times New Roman", Times, serif;
-    font-size: 16px;
-    margin: 16px 0;
-
- }
 }
