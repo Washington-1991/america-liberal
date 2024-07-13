@@ -73,10 +73,10 @@
 // button correspondiente a "apoyar la libertad"
 .button-02 {
 
-  text-decoration: none;
-  font-size: 24px;
-  color: #000000;
-  font-family: "Times New Roman", Times, serif;
+  background-color: transparent;
+  border: none;
+  margin: 0 8px;
+  color: white;
 
   &:hover {
     color: white;
