@@ -76,4 +76,9 @@
   border: none;
   margin: 0 8px;
   color: white;
+
+  &:hover {
+    color: skyblue;
+    border-bottom: 1px solid skyblue;
+  }
 }
