@@ -78,6 +78,7 @@
   color: white;
 
   &:hover {
+    transition: 0,5s;
     color: white;
     border-bottom: 1px solid skyblue;
   }
