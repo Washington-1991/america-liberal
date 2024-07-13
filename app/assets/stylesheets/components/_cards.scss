@@ -1009,3 +1009,31 @@
 }
 
 // card 29 correspondiente a exponentes liberales
+.card-29 {
+
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 300px;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 0 8px;
+  border: 2px solid #ffffff;
+  box-shadow: 1px 1rem 1.5rem -0.9rem #000000e1;
+
+  // imagen correspondiente a exponentes liberales
+  .card-29-img {
+
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 40%;
+      height: 100%;
+      border-radius: 5px;
+      object-fit: cover;
+
+    }
+  }
+
+}
