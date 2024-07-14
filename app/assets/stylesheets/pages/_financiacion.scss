@@ -43,4 +43,14 @@
   .financiacion-text-two {
 
   }
+
+  .financiacion-title-three {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0;
+
+    h2 {
+      font-size: 32px;
+    }
+  }
 }
