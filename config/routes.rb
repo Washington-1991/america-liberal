@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   get 'argentina', to: 'pages#argentina'
   get 'uruguay', to: 'pages#uruguay'
   get "home", to: "pages#home"
+  get "financiacion", to: "pages#financiacion"
 
 
 
