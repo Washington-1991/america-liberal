@@ -1183,10 +1183,11 @@
 
     animation: rotate 8s linear infinite;
   }
-}
 
-@keyframes rotate {
-  to {
-    transform: rotate(360deg);
+  @keyframes rotate {
+    to {
+      transform: rotate(360deg);
+    }
   }
+
 }
