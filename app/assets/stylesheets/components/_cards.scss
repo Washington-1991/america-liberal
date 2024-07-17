@@ -1209,23 +1209,30 @@
 
   .card-31-title-two {
 
+    h2 {
+      font-size: 32px;
+      color: skyblue;
+      font-family: "Times New Roman", Times, serif;
+    }
+
     li  {
       display: flex;
       color: skyblue;
     }
 
+  }
+
+  .card-title-two {
+
     h2 {
       font-size: 32px;
       color: skyblue;
       font-family: "Times New Roman", Times, serif;
     }
-  }
 
-  .card-title-two {
-    h2 {
-      font-size: 32px;
+    li  {
+      display: flex;
       color: skyblue;
-      font-family: "Times New Roman", Times, serif;
     }
   }
 
