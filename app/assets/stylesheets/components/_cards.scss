@@ -1197,6 +1197,14 @@
 
     border-bottom: 1px solid skyblue;
     text-align: center;
+    display: flex;
+
+    img {
+      width: 40px;
+      height: 40px;
+      margin: 0 16px 0 0;
+      object-fit: cover;
+    }
 
     h2 {
 
