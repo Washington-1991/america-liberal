@@ -1261,14 +1261,14 @@
 }
 
 // card 32 correspondiente a la informacion principal de la pagina principal
-.card-11 {
+.card-32 {
   padding: 16px;
   border-radius: 5px;
   border: 2px solid #ffffff;
   box-shadow: 1px 1rem 1.5rem -0.9rem #000000e1;
 
   // titulo de la noticia principal
-  .card-11-title {
+  .card-32-title {
     display: flex;
     justify-content: center;
     margin: 16px 0;
@@ -1290,7 +1290,7 @@
   }
 
   // imagen de la noticia principal
-  .card-11-img {
+  .card-32-img {
     // general
     display: flex;
     justify-content: center;
@@ -1308,7 +1308,7 @@
   }
 
   // texto de la noticia principal
-  .card-11-text {
+  .card-32-text {
     margin: 16px 0;
     font-size: 16px;
     color: #000000;
