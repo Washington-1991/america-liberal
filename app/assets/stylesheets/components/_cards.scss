@@ -1586,7 +1586,7 @@
   }
 }
 
-// card 38 correspondiente a exponentes liberales
+// card 39 correspondiente a exponentes liberales
 .card-39 {
 
   display: flex;
@@ -1628,7 +1628,7 @@
   }
 }
 
-// card 38 correspondiente a exponentes liberales
+// card 40 correspondiente a exponentes liberales
 .card-40 {
 
   display: flex;
@@ -1657,6 +1657,48 @@
   }
   // titulo correspondiente a exponentes liberales
   .card-40-title {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    a {
+      text-decoration: none;
+      font-size: 24px;
+      color: #000000;
+      font-family: "Times New Roman", Times, serif;
+    }
+  }
+}
+
+// card 41 correspondiente a exponentes liberales
+.card-41 {
+
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 300px;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 8px 0 0 0;
+  border: 2px solid #ffffff;
+  box-shadow: 1px 1rem 1.5rem -0.9rem #000000e1;
+
+  // imagen correspondiente a exponentes liberales
+  .card-41-img {
+
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 25%;
+      height: 100%;
+      border-radius: 5px;
+      object-fit: cover;
+
+    }
+  }
+  // titulo correspondiente a exponentes liberales
+  .card-41-title {
     display: flex;
     justify-content: center;
     width: 100%;
