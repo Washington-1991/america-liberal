@@ -1,1 +1,36 @@
 // scss correspondiente a la pagina de eeuu
+
+.eeuu-container {
+  margin: 16vh 16px 16px 16px;
+
+  .eeuu-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #000;
+
+    h2 {
+      font-size: 40px;
+      margin: 16px 0;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+    }
+  }
+
+  .noticia-principal-eeuu {
+    margin: 16px 0;
+  }
+
+  .exponentes-liberales-eeuu {
+    margin: 8px 0;
+
+    .exponentes-liberales-eeuu-line-one {
+      display: flex;
+    }
+
+    .exponentes-liberales-eeuu-line-two {
+      display: flex;
+    }
+
+  }
+}
