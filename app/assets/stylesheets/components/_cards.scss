@@ -1792,88 +1792,8 @@
   }
 
 
-  // card 01 Indice de libertad economica
+  // card 43 logo eeuu party
   .card-43 {
-
-    height: 10vh;
-    width: 20%;
-    margin:  0 0 0 16px;
-    border-left: 2px solid #bec4cf;
-
-    .card-43-a {
-      height: 50%;
-      font-size: 1rem;
-      margin: auto;
-      display: flex;
-      justify-content: center;
-    }
-
-    .card-43-b {
-      height: 50%;
-      font-size: 1rem;
-      margin: auto;
-      display: flex;
-      justify-content: center;
-    }
-
-  }
-
-  // card 02 Dolar USA
-  .card-02 {
-
-    height: 10vh;
-    width: 20%;
-    margin: 16px 0;
-    border-right: 2px solid #bec4cf;
-
-    .card-02-a {
-      height: 50%;
-      font-size: 8px;
-      margin: auto;
-      display: flex;
-      justify-content: center;
-    }
-
-    .card-02-b {
-      display: flex;
-      height: 50%;
-      font-size: 8px;
-      margin: auto;
-      display: flex;
-      justify-content: center;
-    }
-
-  }
-
-  // card 03 Dolar blue
-  .card-03 {
-
-    height: 10vh;
-    width: 20%;
-    margin: 16px 0;
-    border-right: 2px solid #bec4cf;
-
-    .card-03-a {
-      height: 50%;
-      font-size: 8px;
-      margin: auto;
-      display: flex;
-      justify-content: center;
-    }
-
-    .card-03-b {
-      display: flex;
-      height: 50%;
-      font-size: 8px;
-      margin: auto;
-      display: flex;
-      justify-content: center;
-    }
-
-  }
-
-  // card 04 logo LLA
-  .card-04 {
     height: 100%;
     width: 15%;
     margin:  0 0 0 16px;
@@ -1883,40 +1803,6 @@
       height: 100%;
       width: 100%;
       object-fit: cover;
-    }
-  }
-
-  .card-text {
-    font-size: 1rem;
-    color: #bec4cf;
-    background: transparent;
-    padding: 1.5rem;
-    border-radius: 1.2rem;
-    text-shadow: 0px 0px 0.5rem #000000e1;
-  }
-
-  // card 05 Inflacion mensual
-  .card-05 {
-    height: 10vh;
-    width: 20%;
-    margin: 16px 0;
-    border-right: 2px solid #bec4cf;
-
-    .card-05-a {
-      height: 50%;
-      font-size: 1rem;
-      margin: auto;
-      display: flex;
-      justify-content: center;
-    }
-
-    .card-05-b {
-      display: flex;
-      height: 50%;
-      font-size: 1rem;
-      margin: auto;
-      display: flex;
-      justify-content: center;
     }
   }
 }
