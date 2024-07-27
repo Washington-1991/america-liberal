@@ -1791,10 +1791,9 @@
     object-fit: cover;
   }
 
-
   // card 43 logo eeuu party
   .card-43 {
-    height: 100%;
+    height: 50%;
     width: 15%;
     margin:  0 0 0 16px;
 
@@ -1804,22 +1803,6 @@
       width: 100%;
       object-fit: cover;
     }
-  }
-
-  // general
-  display: flex;
-  align-items: center;
-  background: linear-gradient(135deg, #0d1120 0%, #3a4b8a 43%, #0d1120 100%);
-  padding: 0 16px;
-  border-radius: 1.2rem;
-  box-shadow: 0px 1rem 1.5rem -0.9rem #000000e1;
-  width: 100%;
-
-  // country image flag
-  img {
-    width: 48px;
-    height: 48px;
-    object-fit: cover;
   }
 
 
