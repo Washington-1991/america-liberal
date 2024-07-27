@@ -1712,3 +1712,61 @@
     }
   }
 }
+
+// card 42 correspondiente a la noticia principal de eeuu
+.card-42 {
+  padding: 16px;
+  border-radius: 5px;
+  border: 2px solid #ffffff;
+  box-shadow: 1px 1rem 1.5rem -0.9rem #000000e1;
+
+  // titulo de la noticia principal
+  .card-42-title {
+    display: flex;
+    justify-content: center;
+    margin: 16px 0;
+
+    a {
+      text-decoration: none;
+      color: #000000;
+      font-family: "Times New Roman", Times, serif;
+      font-size: 24px;
+    }
+
+    img {
+      width: 40px;
+      height: 40px;
+      margin: 0 16px 0 0;
+      object-fit: cover;
+
+    }
+  }
+
+  // imagen de la noticia principal
+  .card-42-img {
+    // general
+    display: flex;
+    justify-content: center;
+
+    // imagen
+    img {
+      width: 70%;
+      height: 70%;
+      border-radius: 5px;
+      object-fit: cover;
+      box-shadow: 1px 1rem 1.5rem -0.9rem #000000e1;
+
+    }
+
+  }
+
+  // texto de la noticia principal
+  .card-42-text {
+    margin: 16px 0;
+    font-size: 16px;
+    color: #bec4cf;
+    background: transparent;
+    padding: 16px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+}
