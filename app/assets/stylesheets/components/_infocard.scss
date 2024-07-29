@@ -137,7 +137,7 @@
 
 
 // argentina info card
-.argentina-info-card {
+.info-card {
 
   // general
   display: flex;
@@ -155,17 +155,30 @@
     object-fit: cover;
   }
 
+  // Logo
+  .Logo-PP {
+    height: 100%;
+    width: 15%;
+    margin:  0 0 0 16px;
 
-  // card 01 Indice de libertad economica
-  .card-01 {
 
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+
+   // Indice de libertad economica
+   .ILL {
     height: 10vh;
     width: 20%;
     margin:  0 0 0 16px;
     border-left: 2px solid #bec4cf;
     border-right: 2px solid #bec4cf;
 
-    .card-01-a {
+    .ILL-a {
       height: 50%;
       font-size: 1rem;
       margin: auto;
@@ -173,14 +186,13 @@
       justify-content: center;
     }
 
-    .card-01-b {
+    .ILL-b {
       height: 50%;
       font-size: 1rem;
       margin: auto;
       display: flex;
       justify-content: center;
     }
-
   }
 
   // card 02 Dolar USA
@@ -237,19 +249,7 @@
 
   }
 
-  // card 04 logo LLA
-  .card-04 {
-    height: 100%;
-    width: 15%;
-    margin:  0 0 0 16px;
 
-
-    img {
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
-    }
-  }
 
   .card-text {
     font-size: 1rem;
