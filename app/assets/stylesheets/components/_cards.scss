@@ -1499,4 +1499,22 @@
     object-fit: cover;
   }
 
+  // Indice de libertad economica
+
+  .ILL {
+    height: 10vh;
+    width: 20%;
+    margin:  0 0 0 16px;
+    border-left: 2px solid #bec4cf;
+    border-right: 2px solid #bec4cf;
+
+    .ILL-a {
+      height: 50%;
+      font-size: 1rem;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
 }
