@@ -1499,6 +1499,20 @@
     object-fit: cover;
   }
 
+  // Logo
+  .Logo-PP {
+    height: 100%;
+    width: 15%;
+    margin:  0 0 0 16px;
+
+
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
   // Indice de libertad economica
   .ILL {
     height: 10vh;
@@ -1573,5 +1587,8 @@
       justify-content: center;
     }
   }
+
+
+
 
 }
