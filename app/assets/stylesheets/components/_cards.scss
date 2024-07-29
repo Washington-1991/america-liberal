@@ -1588,7 +1588,29 @@
     }
   }
 
+  // Indice 3
+  .ILL-4 {
+    height: 10vh;
+    width: 20%;
+    margin: 16px 0;
+    border-right: 2px solid #bec4cf;
 
+    .ILL-4-a {
+      height: 50%;
+      font-size: 1rem;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+    }
 
+    .ILL-4-b {
+      display: flex;
+      height: 50%;
+      font-size: 1rem;
+      margin: auto;
+      display: flex;
+      justify-content: center;
+    }
+  }
 
 }
