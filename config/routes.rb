@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get "up" => "rails/health#show", as: :rails_health_check
 
   get 'argentina', to: 'pages#argentina'
+  get "bolivia", to: "pages#bolivia"
   get 'brazil', to: 'pages#brazil'
   get "eeuu", to: "pages#eeuu"
   get 'uruguay', to: 'pages#uruguay'
