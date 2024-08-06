@@ -1,0 +1,24 @@
+//  scss correspondiente a la pagina de bolivia
+
+.bolivia-container {
+  margin: 16vh 16px 16px 16px;
+
+  .bolivia-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #000;
+
+    h2 {
+      font-size: 40px;
+      margin: 16px 0;
+      font-weight: bold;
+      font-family: 'Times New Roman', Times, serif;
+    }
+  }
+
+  .noticia-principal-bolivia {
+    margin: 16px 0;
+  }
+
+}
