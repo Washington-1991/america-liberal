@@ -12,16 +12,8 @@
     box-shadow: 1px 1rem 1.5rem -0.9rem #000000e1;
   }
 
-
-}
-
-
-
-// card 32 correspondiente a la noticia principal de argentina
-.card-32 {
-
-  // titulo de la noticia principal
-  .card-32-title {
+    // titulo de la noticia principal
+  .noiticia-principal-title {
     display: flex;
     justify-content: center;
     margin: 16px 0;
@@ -41,6 +33,16 @@
 
     }
   }
+
+
+}
+
+
+
+// card 32 correspondiente a la noticia principal de argentina
+.card-32 {
+
+
 
   // imagen de la noticia principal
   .card-32-img {
