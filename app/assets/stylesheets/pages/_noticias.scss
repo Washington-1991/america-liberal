@@ -3,9 +3,9 @@
 // Noticia principal
 .noticia-principal-container {
   padding: 16px;
-    border-radius: 5px;
-    border: 2px solid #ffffff;
-    box-shadow: 1px 1rem 1.5rem -0.9rem #000000e1;
+  border-radius: 5px;
+  border: 2px solid #ffffff;
+  box-shadow: 1px 1rem 1.5rem -0.9rem #000000e1;
 
   // titulo de la noticia principal
   .noticia-principal-title {
@@ -29,36 +29,22 @@
     }
   }
 
-
-}
-
-
-
-// card 32 correspondiente a la noticia principal de argentina
-.card-32 {
-
-
-
   // imagen de la noticia principal
-  .card-32-img {
-    // general
+  .noticia-principal-img {
     display: flex;
     justify-content: center;
+    margin: 16px 0;
 
-    // imagen
     img {
       width: 70%;
       height: 70%;
       border-radius: 5px;
       object-fit: cover;
-      box-shadow: 1px 1rem 1.5rem -0.9rem #000000e1;
-
     }
-
   }
 
   // texto de la noticia principal
-  .card-32-text {
+  .noticia-principal-text {
     margin: 16px 0;
     font-size: 16px;
     color: #bec4cf;
@@ -66,4 +52,5 @@
     padding: 16px;
     font-family: 'Times New Roman', Times, serif;
   }
+
 }
