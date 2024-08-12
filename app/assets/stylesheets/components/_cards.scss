@@ -802,46 +802,8 @@
 // card 32 libre
 .card-32
 
-// card 33 correspondiente a exponentes liberales argentina
+// card 33 libre
 .card-33 {
-
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  height: 300px;
-  border-radius: 5px;
-  padding: 8px;
-  margin: 8px 0 0 8px;
-  border: 2px solid #ffffff;
-  box-shadow: 1px 1rem 1.5rem -0.9rem #000000e1;
-
-  // imagen correspondiente a exponentes liberales
-  .card-33-img {
-
-    display: flex;
-    justify-content: center;
-
-    img {
-      width: 40%;
-      height: 100%;
-      border-radius: 5px;
-      object-fit: cover;
-
-    }
-  }
-  // titulo correspondiente a exponentes liberales
-  .card-33-title {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-
-    a {
-      text-decoration: none;
-      font-size: 24px;
-      color: #000000;
-      font-family: "Times New Roman", Times, serif;
-    }
-  }
 
 
 }
