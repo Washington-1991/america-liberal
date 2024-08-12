@@ -17,6 +17,18 @@
       margin: 8px 0 0 8px;
       border: 2px solid #ffffff;
       box-shadow: 1px 1rem 1.5rem -0.9rem #000000e1;
+
+      .exponente-1-img {
+        display: flex;
+        justify-content: center;
+
+        img {
+          width: 40%;
+          height: 100%;
+          border-radius: 5px;
+          object-fit: cover;
+        }
+      }
     }
 
     .exponente-2 {
