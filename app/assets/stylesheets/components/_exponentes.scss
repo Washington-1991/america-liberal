@@ -7,7 +7,7 @@
   .exponentes-liberales-line-one {
     display: flex;
 
-    .exponente-1 {
+    .exponente {
       display: flex;
       flex-direction: column;
       width: 50%;
@@ -18,7 +18,7 @@
       border: 2px solid #ffffff;
       box-shadow: 1px 1rem 1.5rem -0.9rem #000000e1;
 
-      .exponente-1-img {
+      .exponente-img {
         display: flex;
         justify-content: center;
 
@@ -30,7 +30,7 @@
         }
       }
 
-      .exponente-1-title {
+      .exponente-title {
         display: flex;
         justify-content: center;
         width: 100%;
@@ -43,10 +43,6 @@
         }
 
       }
-    }
-
-    .exponente-2 {
-
     }
 
   }
