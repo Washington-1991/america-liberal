@@ -77,3 +77,4 @@ group :test do
 end
 
 # Cloudinary
+gem "cloudinary"
