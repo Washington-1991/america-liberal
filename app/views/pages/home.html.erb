@@ -13,7 +13,24 @@
   <div class="home-title">
     <h1>Volvamos a hacer de America un gran continente</h1>
   </div>
-  <%= render 'shared/article_principal' %>
+
+  <%# noticia principal de argentina %>
+  <div class="noticia-principal-container">
+
+    <div class="noticia-principal-title">
+      <%= image_tag "argentina.png" %>
+      <a href="">Noticias de argentina</a>
+    </div>
+
+    <div class="noticia-principal-img">
+      <%= image_tag "290624.jpg"  %>
+    </div>
+
+    <div class="noticia-principal-text">
+      <p>Texto de la noticia</p>
+    </div>
+
+  </div>
 
   <%# division correspondiente a las noticias secundarias %>
   <%= render 'shared/article_secundary' %>
